@@ -9,13 +9,13 @@ object TypesOfList
     var LineList= List(10,11,12)
     
     
-    var LibraryList= List(CategoryList,BookList, PageList, LineList).flatten
+    var LibraryList= List(CategoryList,BookList, PageList, LineList).flatten    //List of list with .flatten
     
-    println(LibraryList)
+    println(LibraryList)    //List after flatten
     
     var(x,y) = LibraryList.splitAt(11)
     
-    println(y)
+    println(y)    //Print only the last index
     
   }
 }
