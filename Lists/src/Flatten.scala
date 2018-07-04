@@ -17,6 +17,8 @@ object Flatten
     
     println(y)    //Print only the last index
     
+    
+   
   }
 }
 
